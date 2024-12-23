@@ -4,7 +4,7 @@ sleep(0.1)
 click_menu_button(2)
 sleep(0.1)
 
-tap_ui_navigation()
+actionlib.tap_ui_navigation()
 sleep(0.1)
 kc.tap(Key.enter)
 sleep(0.1)
@@ -16,4 +16,4 @@ for i in range(50):
 for i in range(15):
     ahk.click(button="WD")
     sleep(0.01)
-tap_ui_navigation()
+actionlib.tap_ui_navigation()
