@@ -1,6 +1,5 @@
 r_pos = window.get_roblox_window_pos()
-
-pathlib.reset()
+actionlib.reset()
 sleep(0.1)
 click_menu_button(2)
 sleep(0.1)
