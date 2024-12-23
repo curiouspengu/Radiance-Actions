@@ -1,6 +1,3 @@
-from data.lib.auto import *
-from data.lib import window
-
 tap_ui_navigation()
 for i in range(4):
     sleep(0.1)
