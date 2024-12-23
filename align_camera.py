@@ -1,3 +1,6 @@
+from data.lib.auto import *
+from data.lib import window
+
 r_pos = window.get_roblox_window_pos()
 
 pathlib.reset()
