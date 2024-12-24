@@ -1,3 +1,5 @@
+# Radiance Actions © 2024 by Radiant Team is licensed under Creative Commons Attribution-ShareAlike 4.0 International
+
 r_pos = window.get_roblox_window_pos()
 actionlib.reset()
 sleep(0.1)
