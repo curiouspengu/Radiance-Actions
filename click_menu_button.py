@@ -1,3 +1,5 @@
+# Radiance Actions © 2024 by Radiant Team is licensed under Creative Commons Attribution-ShareAlike 4.0 International
+
 actionlib.tap_ui_navigation()
 for i in range(4):
     sleep(0.1)
