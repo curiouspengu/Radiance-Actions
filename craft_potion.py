@@ -70,7 +70,7 @@ while restart == True:
             tap(Key.right)
             tap(Key.enter)
             
-            if detect_ui_nav(resolution_settings["potion_crafting"]["1"]) == True:
+            if detect_ui_nav(resolution_settings["potion_crafting"]["leaderboard_close_button"]) == True:
                 for i in range(2):
                     tap(Key.left)
                 restart = True
@@ -83,7 +83,7 @@ while restart == True:
                 max_input = -(max_input // -2.0)
         tap(Key.down)
         
-        if detect_ui_nav(resolution_settings["potion_crafting"]["2"]) == True: # Recorded in 1920x1080 100%
+        if detect_ui_nav(resolution_settings["potion_crafting"]["autoroll_button"]) == True: # Recorded in 1920x1080 100%
             break
         if restart == True:
             break
